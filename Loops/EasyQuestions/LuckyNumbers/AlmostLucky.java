@@ -1,4 +1,4 @@
-package codeforces;
+package Codeforces.Loops.EasyQuestions.LuckyNumbers;
 
 import java.util.Scanner;
 

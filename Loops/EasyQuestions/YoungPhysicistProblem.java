@@ -1,4 +1,4 @@
-package codeforces.Loops.EasyQuestions;
+package Codeforces.Loops.EasyQuestions;
 
 import java.util.Scanner;
 
