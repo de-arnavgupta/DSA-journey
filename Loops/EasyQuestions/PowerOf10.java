@@ -2,7 +2,7 @@ package codeforces.Loops.EasyQuestions;
 
 import java.util.Scanner;
 
-public class ExpressPowerOfTenProblem
+public class PowerOf10
 {
     public static void main(String[] args) {
 
