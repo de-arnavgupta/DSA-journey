@@ -1,8 +1,8 @@
-package codeforces.Loops.EasyQuestions;
+package codeforces.loops.easyQuestions;
 
 import java.util.Scanner;
 
-public class PowerOf10
+public class SmallerPowerOfTenProblem
 {
     public static void main(String[] args) {
 
