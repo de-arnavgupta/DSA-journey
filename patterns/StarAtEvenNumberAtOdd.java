@@ -2,7 +2,7 @@ package DSA.patterns;
 
 import java.util.Scanner;
 
-public class StarAndNumber {
+public class StarAtEvenNumberAtOdd {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int row = sc.nextInt();
