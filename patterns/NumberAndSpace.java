@@ -8,11 +8,21 @@ public class NumberAndSpace {
         int row = sc.nextInt();
         for(int i = 1; i <= row; i++) {
             System.out.print("*");
-            for(int j = 1; j <= row-2; j++) {
+            for(int j = 1; j <= row-1; j++) {
                 System.out.print(" ");
             }
+            System.out.println("*");
+        }
+
+        //Star and space modified
+        System.out.println();
+        for(int i = 1; i <= row; i++) {
             System.out.print("*");
-            System.out.println();
+
+            for(int j = 1; j <= row-i; j++) {
+                System.out.print(" ");
+            }
+            System.out.println("*");
         }
     }
 }
