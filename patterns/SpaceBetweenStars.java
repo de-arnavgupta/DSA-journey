@@ -20,6 +20,7 @@ public class SpaceBetweenStars {
             }
             System.out.println();
         }
+        System.out.println();
 
         //Space Between Stars Modified
 
@@ -30,7 +31,7 @@ public class SpaceBetweenStars {
             for(int j = 1; j <= (row-i)*2; j++) {
                 System.out.print(" ");
             }
-            for(int j = i; j <= i; j++) {
+            for(int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();

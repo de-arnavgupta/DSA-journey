@@ -16,6 +16,7 @@ public class NumberAndSpace {
 
         //Star and space modified
         System.out.println();
+        row = sc.nextInt();
         for(int i = 1; i <= row; i++) {
             System.out.print("*");
 
