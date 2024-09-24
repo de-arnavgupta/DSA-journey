@@ -1,8 +1,8 @@
-package DSA.basicQuestions;
+package DSA.basicQuestions.pattern;
 
 import java.util.Scanner;
 
-public class NumberPattern
+public class AlphabetPattern
 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

@@ -15,11 +15,10 @@ public class PrimeFactorisation {
         int temp = num;
 
         for (int i = 3; i*i <= num; i = i + 2) {
-            while (temp % i == 0) {
+            while (num % i == 0) {
                 System.out.println(i);
-                temp = temp / i;
+                num = num / i;
             }
-            num = temp;
         }
         if(num > 2) {
             System.out.println(num);

@@ -51,7 +51,5 @@ public class DiamondPatterns {
         }
 
         printDiamondPattern(t, testCases);
-
-        scanner.close();
     }
 }

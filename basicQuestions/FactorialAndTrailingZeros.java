@@ -2,7 +2,7 @@ package DSA.basicQuestions;
 
 import java.util.Scanner;
 
-public class Factorial {
+public class FactorialAndTrailingZeros {
     public static void factorial(long num){
         long result = 1;
         for(long i = num; i > 0; i--){

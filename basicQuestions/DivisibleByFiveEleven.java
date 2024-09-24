@@ -10,7 +10,7 @@ public class DivisibleByFiveEleven {
 
         int num = sc.nextInt();
 
-        if(num % 5 == 0 && num % 11 == 0){
+        if(num % 55 == 0){
             System.out.println(1);
         }
         else{

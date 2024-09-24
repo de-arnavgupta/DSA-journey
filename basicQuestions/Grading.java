@@ -8,13 +8,13 @@ public class Grading {
         int students = sc.nextInt();
         int[] marks = new int[students];
 
-        int sum = 0;
+        double sum = 0;
         for (int i = 0; i < students; i++)
         {
             marks[i] = sc.nextInt();
         }
 
-        for (int i = 0; i < marks.length; i++)
+        for (int i = 0; i < students; i++)
         {
             if(marks[i] >= 95)
             {
@@ -34,7 +34,7 @@ public class Grading {
             }
             sum +=marks[i];
         }
-        double averageMarks = (double) (sum) / students;
+        double averageMarks = (sum) / students;
         System.out.println(averageMarks);
     }
 }

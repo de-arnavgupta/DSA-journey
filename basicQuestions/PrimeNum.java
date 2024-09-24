@@ -17,8 +17,7 @@ public class PrimeNum {
                     break;
                 }
             }
-
-            if (isPrime) {
+            if(isPrime) {
                 System.out.println(i);
             }
         }
