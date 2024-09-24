@@ -1,4 +1,4 @@
-package DSA.basicQuestions;
+package DSA.basicQuestions.pattern;
 
 import java.util.Scanner;
 
