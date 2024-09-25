@@ -20,7 +20,7 @@ public class UniqueElementInArray {
                 }
             }
             if(unique) {
-                System.out.println(arr[i]);
+                System.out.print(arr[i] + " ");
             }
         }
     }
