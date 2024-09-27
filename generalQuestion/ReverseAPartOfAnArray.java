@@ -3,8 +3,7 @@ package DSA.generalQuestion;
 import java.util.Scanner;
 
 public class ReverseAPartOfAnArray {
-    public static void inputArray(Scanner sc, int size){
-        int[] arr = new int[size];
+    public static void inputArray(Scanner sc, int size, int[] arr){
         for(int i = 0; i < size; i++){
             arr[i] = sc.nextInt();
         }
@@ -27,7 +26,7 @@ public class ReverseAPartOfAnArray {
         int size = sc.nextInt();
         int[] arr = new int[size];
 
-        inputArray(sc, size);
+        inputArray(sc, size, arr);
 
         int start = sc.nextInt();
         int end = sc.nextInt();
