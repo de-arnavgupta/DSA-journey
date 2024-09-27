@@ -1,4 +1,4 @@
-package DSA.basicQuestions;
+package DSA.topic.loops;
 
 public class Loop {
 

@@ -1,8 +1,8 @@
-package DSA.basicQuestions;
+package DSA.generalQuestion;
 
 import java.util.Scanner;
 
-public class Lcm {
+public class LeastCommonMultiple {
 
         public static int gcd(int num1, int num2)
         {

@@ -1,4 +1,4 @@
-package DSA.basicQuestions;
+package DSA.generalQuestion;
 
 import java.util.Scanner;
 
