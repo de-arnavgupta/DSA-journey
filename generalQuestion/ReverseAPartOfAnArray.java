@@ -15,7 +15,7 @@ public class ReverseAPartOfAnArray {
             arr[end] = temp;
         }
     }
-    public static void printReversedArr(int[] arr){
+    public static void printArr(int[] arr){
         for (int j : arr) {
             System.out.print(j + " ");
         }
@@ -32,6 +32,6 @@ public class ReverseAPartOfAnArray {
         int end = sc.nextInt();
 
         reverse(arr, start, end);
-        printReversedArr(arr);
+        printArr(arr);
     }
 }
