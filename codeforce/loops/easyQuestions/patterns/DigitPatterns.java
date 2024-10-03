@@ -1,4 +1,4 @@
-package DSA.loops.easyQuestions.patterns;
+package DSA.codeforce.loops.easyQuestions.patterns;
 
 import java.util.* ;
 
