@@ -2,16 +2,12 @@ package DSA.twoDArray;
 
 import java.util.Scanner;
 
-import static DSA.twoDArray.TransposeOfMatrix.print2dArray;
-import static DSA.twoDArray.TransposeOfMatrix.transpose;
+import static DSA.twoDArray.TransposeOfMatrix.*;
 
 public class RotateMatrixBy90 {
-    public static void rotateMatrixBy90(int[][] arr) {
+    public static void interchangeColumns(int[][] arr) {
         int row = arr.length;
         int column = arr[0].length;
-
-        transpose(arr);
-
         for(int i = 0; i < row; i++) {
             for(int j = 0; j < column / 2; j++) {
                 int temp = arr[i][j];
@@ -20,16 +16,13 @@ public class RotateMatrixBy90 {
             }
         }
     }
+    public static void rotateMatrixBy90(int[][] arr) {
+        transpose(arr);
+        interchangeColumns(arr);
+    }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int[][] arr = new int[row][row];
-        for(int i = 0; i < row; i++) {
-            for(int j = 0; j < row; j++) {
-                arr[i][j] = sc.nextInt();
-            }
-        }
+        int[][] arr = input2dArray();
         rotateMatrixBy90(arr);
         print2dArray(arr);
     }

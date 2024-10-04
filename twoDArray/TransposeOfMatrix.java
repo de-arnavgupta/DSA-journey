@@ -16,6 +16,18 @@ public class TransposeOfMatrix {
             }
         }
     }
+    public static int[][] input2dArray() {
+        Scanner sc = new Scanner(System.in);
+        int row = sc.nextInt();
+        int column = sc.nextInt();
+        int[][] arr = new int[row][column];
+        for(int i = 0; i < arr.length; i++) {
+            for(int j = 0; j < arr[i].length; j++) {
+                arr[i][j] = sc.nextInt();
+            }
+        }
+        return arr;
+    }
     public static void print2dArray(int[][] arr) {
         for(int i = 0; i < arr.length; i++) {
             for(int j = 0; j < arr[i].length; j++) {
@@ -25,14 +37,7 @@ public class TransposeOfMatrix {
         }
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int[][] arr = new int[row][row];
-        for(int i = 0; i < row; i++) {
-            for (int j = 0; j < row; j++) {
-               arr[i][j] = sc.nextInt();
-            }
-        }
+        int[][] arr = input2dArray();
         transpose(arr);
         print2dArray(arr);
     }
