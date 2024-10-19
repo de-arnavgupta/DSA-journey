@@ -1,8 +1,8 @@
-package DSA.leetcode;
+package DSA.leetcode.easyQuestions;
 
 import java.util.Scanner;
 
-public class KeepAddingDigits {
+public class AddDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();

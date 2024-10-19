@@ -1,6 +1,6 @@
 package DSA.topic.function;
 
-public class function {
+public class Function {
     static int sum(int a , int b){
         return a+b;
     }

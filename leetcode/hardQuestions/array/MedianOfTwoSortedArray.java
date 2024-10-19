@@ -1,4 +1,4 @@
-package DSA.leetcode.array;
+package DSA.leetcode.hardQuestions.array;
 
 import java.util.Scanner;
 

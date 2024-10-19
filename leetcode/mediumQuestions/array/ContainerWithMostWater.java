@@ -1,4 +1,4 @@
-package DSA.leetcode.array;
+package DSA.leetcode.mediumQuestions.array;
 
 public class ContainerWithMostWater {
     public static int maxArea(int[] height) {
