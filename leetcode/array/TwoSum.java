@@ -1,4 +1,4 @@
-package DSA.leetcode;
+package DSA.leetcode.array;
 
 public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
