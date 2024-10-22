@@ -1,4 +1,4 @@
-package DSA.generalQuestion;
+package DSA.sorting;
 
 import java.util.Scanner;
 
