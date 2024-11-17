@@ -42,4 +42,5 @@ class Student {
         this.marks_webdev = marks_webdev;
         this.percentage = (double) (this.marks_dsa + this.marks_webdev) / 2;
     }
+
 }
