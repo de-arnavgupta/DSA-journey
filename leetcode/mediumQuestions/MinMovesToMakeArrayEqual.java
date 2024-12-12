@@ -1,4 +1,4 @@
-package DSA.leetcode.mediumQuestions.array;
+package DSA.leetcode.mediumQuestions;
 
 import java.util.Scanner;
 

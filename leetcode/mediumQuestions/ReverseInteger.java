@@ -1,4 +1,4 @@
-package DSA.leetcode.mediumQuestions.array;
+package DSA.leetcode.mediumQuestions;
 
 public class ReverseInteger {
     public int reverse(int x) {

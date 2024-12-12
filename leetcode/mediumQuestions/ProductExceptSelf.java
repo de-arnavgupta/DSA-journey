@@ -1,4 +1,4 @@
-package DSA.leetcode.mediumQuestions.array;
+package DSA.leetcode.mediumQuestions;
 
 class ProductExceptSelf {
     public static void main(String[] args) {
