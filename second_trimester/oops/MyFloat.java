@@ -1,4 +1,4 @@
-package DSA.second_trimester;
+package DSA.second_trimester.oops;
 
 public class MyFloat {
     // Define properties here
