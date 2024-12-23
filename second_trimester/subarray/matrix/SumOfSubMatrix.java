@@ -2,31 +2,37 @@ package DSA.second_trimester.subarray.matrix;
 
 import java.util.Scanner;
 
+import static DSA.first_trimester.twoDArray.TransposeOfMatrix.input2dArray;
+import static DSA.first_trimester.twoDArray.TransposeOfMatrix.print2dArray;
+
 public class SumOfSubMatrix
 {
     public static void main(String[] args)
     {
-        Scanner sc = new Scanner(System.in);
-        int row = sc.nextInt();
-        int column = sc.nextInt();
-        int[][] arr = new int[row][column];
-        for(int i = 0; i < row; i++) {
-            for (int j = 0; j < column; j++) {
-                arr[i][j] = sc.nextInt();
+        int[][] arr = input2dArray();
+        int[][] prefix = new int[arr.length][arr[0].length];
+
+        prefix[0][0] = arr[0][0];
+        for(int i = 0; i < arr.length; i++)
+        {
+           for(int j = 0; j < arr[i].length; j++)
+           {
+               if(j == 0){
+                   prefix[i][j] = arr[i][j];
+               }
+               else{
+                   prefix[i][j] = prefix[i][j - 1] + arr[i][j];
+               }
+
+           }
+        }
+        for(int i = 1; i < arr.length; i++)
+        {
+            for(int j = 0; j < arr[i].length; j++)
+            {
+                prefix[i][j] = prefix[i][j] + prefix[i - 1][j];
             }
         }
-        int queries = sc.nextInt();
-        int[][] queriesArray = new int[queries][4];
-
-        while (queries-- > 0) {
-            int r1 = sc.nextInt();
-            int c1 = sc.nextInt();
-            int r2 = sc.nextInt();
-            int c2 = sc.nextInt();
-            queriesArray[queries][0] = r1;
-            queriesArray[queries][1] = c1;
-            queriesArray[queries][2] = r2;
-            queriesArray[queries][3] = c2;
-        }
+        print2dArray(prefix);
     }
 }
