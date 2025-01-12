@@ -11,7 +11,7 @@ public class MaxLengthOfSubArraySumLessThanK
     public static int maxLength(int[] arr, int target) {
 
         int start = 0;
-        int end = arr.length - 1;
+        int end = arr.length;
         int length = 0;
 
         while (start <= end)
