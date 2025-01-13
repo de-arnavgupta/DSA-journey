@@ -7,7 +7,7 @@ public class SumOfTwoElementIsK
 {
     public static void main(String[] args)
     {
-        int[] arr = {1,2,4,5,34,2,3,2,3,1,44,6,7,58,6,8,5,67,56,4,64};
+        int[] arr = {4,4,6,6,6};
         int k = 10;
 
         Set<Integer> set = new HashSet<>();
