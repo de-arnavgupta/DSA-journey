@@ -2,8 +2,6 @@ package DSA.second_trimester;
 
 import java.util.HashMap;
 
-import static DSA.second_trimester.FrequencyOfElementsOfAnArray.frequencyUsingMap;
-
 public class NumberOfPairWhoseSumisK
 {
     public static int numberOfPairWhoseSumisKUsingMap(int[] arr, int k)
