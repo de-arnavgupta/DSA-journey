@@ -1,7 +1,6 @@
-package DSA.second_trimester;
+package DSA.second_trimester.subarray;
 
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class DistinctElementInEverySubArrayOfLengthK
 {

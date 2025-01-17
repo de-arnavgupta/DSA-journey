@@ -1,4 +1,4 @@
-package DSA.second_trimester;
+package DSA.second_trimester.hashMap;
 
 import java.util.Scanner;
 
