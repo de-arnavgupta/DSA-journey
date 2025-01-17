@@ -1,4 +1,4 @@
-package DSA.second_trimester.hashMap;
+package DSA.second_trimester;
 
 public class BalancedIndexCount {
     public static int countBalancedIndices(int[] A) {
