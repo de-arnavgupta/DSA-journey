@@ -1,0 +1,39 @@
+package DSA.second_trimester;
+
+public class MakingEven_OddIndexSumSameByRemovingElements
+{
+    public static void main(String[] args)
+    {
+        int[] arr = {2,1,6,4};
+        System.out.println(makingEvenOddIndexSumSame(arr));
+    }
+    public static int makingEvenOddIndexSumSame(int[] arr)
+    {
+        int[] evenPrefixSum = new int[arr.length + 1];
+        int[] oddPrefixSum = new int[arr.length + 1];
+
+        evenPrefixSum[0] = arr[0];
+        oddPrefixSum[0] = arr[1];
+
+        for(int i = 1; i < arr.length; i++)
+        {
+            if(i % 2 == 0)
+            {
+                evenPrefixSum[i] = evenPrefixSum[i - 1] + arr[i];
+            }
+            else
+            {
+                oddPrefixSum[i] = oddPrefixSum[i - 1] + arr[i];
+            }
+        }
+
+        int evenSum = evenPrefixSum[arr.length - 1];
+        int oddSum = oddPrefixSum[arr.length - 1];
+
+        if(evenSum == oddSum)
+        {
+            return 0;
+        }
+       
+    }
+}

@@ -23,11 +23,11 @@ public class AnySubArrayWithSum0
 
         for(int i = 0; i < prefixSum.length; i++)
         {
-            if(map.containsKey(prefixSum[i]))
+            map.put(prefixSum[i], map.getOrDefault(prefixSum[i], 0) + 1);
+            if(map.getOrDefault(prefixSum[i], 0) > 1)
             {
                 return true;
             }
-            map.put(prefixSum[i], i);
         }
         return false;
     }
