@@ -10,6 +10,13 @@ public class PowerN
         if(n == 0) {
             return 1;
         }
-        return base * powerN(base, n - 1);
+        if(n % 2 == 0) {
+            int halfPower = powerN(base, n / 2);
+            return halfPower * halfPower;
+        }
+        else
+        {
+            return base * powerN(base, n - 1);
+        }
     }
 }

@@ -5,8 +5,8 @@ import java.util.HashMap;
 public class AnySubArrayWithSumK
 {
     public static void main(String[] args) {
-        int[] arr = {3,5,2,2,1,4,7,6,5,43,4,6};
-        int k = 9;
+        int[] arr = {9,4,20,3,10,5};
+        int k = 33;
         System.out.println(anySubArrayWithSumK(arr, k));
     }
 
