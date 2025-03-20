@@ -1,6 +1,6 @@
 package DSA.trimester3.stack;
 
-public class ArrayStack extends Stack{
+public class ArrayStack implements Stack{
     int top;
     int size;
     int[] stack;

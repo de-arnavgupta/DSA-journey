@@ -1,6 +1,6 @@
 package DSA.trimester3.stack;
 
-public class LinkedListStack implements Stack
+public class LinkedListStack extends Stack
 {
 
     static class Node
