@@ -14,17 +14,14 @@ public class MergeSort
         {
             arr1[i] = sc.nextInt();
         }
-
         int length2 = sc.nextInt();
         int[] arr2 = new int[length2];
-
         for (int i = 0; i < length2; i++)
         {
             arr2[i] = sc.nextInt();
         }
 
         int[] ans = mergeSortUsingIteration(arr1, arr2);
-
         for (int i = 0; i < ans.length; i++)
         {
             System.out.print(ans[i] + " ");
@@ -56,14 +53,12 @@ public class MergeSort
             k++;
             mergeSortUsingRecursion(arr1, arr2, ans2, i, j, k);
         }
-
         while (i < arr1.length)
         {
             ans2[k] = arr1[i];
             i++;
             k++;
         }
-
         while (j < arr2.length)
         {
             ans2[k] = arr2[j];
@@ -94,14 +89,12 @@ public class MergeSort
             }
             k++;
         }
-
         while (i < arr1.length)
         {
             ans[k] = arr1[i];
             i++;
             k++;
         }
-
         while (j < arr2.length)
         {
             ans[k] = arr2[j];
