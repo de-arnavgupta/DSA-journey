@@ -3,6 +3,16 @@ package DSA.trimester3.stack;
 public class LinkedListStack implements Stack
 {
 
+    protected int get(int position)
+    {
+        Node temp = top;
+        for(int i = 0; i < position; i++)
+        {
+            temp = temp.next;
+        }
+        return temp.data;
+    }
+
     static class Node
     {
         int data;
@@ -41,18 +51,44 @@ public class LinkedListStack implements Stack
         return x;
     }
 
-    public int peek()
+    public char peek()
     {
         if(top == null)
         {
             System.out.println("Stack is empty");
-            return -1;
+            return ' ';
         }
-        return top.data;
+        return (char)top.data;
     }
 
     public boolean isEmpty()
     {
         return top == null;
+    }
+
+    public int pop(int position)
+    {
+        if(top == null)
+        {
+            System.out.println("Stack Underflow");
+            return -1;
+        }
+        if(position == 0)
+        {
+            int x = top.data;
+            top = top.next;
+            return x;
+        }
+        else
+        {
+            Node temp = top;
+            for(int i = 0; i < position - 1; i++)
+            {
+                temp = temp.next;
+            }
+            int x = temp.next.data;
+            temp.next = temp.next.next;
+            return x;
+        }
     }
 }
