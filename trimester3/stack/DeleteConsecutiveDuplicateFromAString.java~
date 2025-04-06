@@ -1,8 +1,0 @@
-package DSA.trimester3.stack;
-
-public class DeleteConsecutiveDuplicateFromAString
-{
-    public static String deleteConsecutiveDuplicates(String s) {
-        java.util.Stack<String> stack = new Stack<>();
-    }
-}
