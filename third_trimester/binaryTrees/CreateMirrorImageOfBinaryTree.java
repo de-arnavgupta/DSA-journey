@@ -1,6 +1,6 @@
-package DSA.trimester3.trees;
+package DSA.third_trimester.binaryTrees;
 
-import static DSA.trimester3.trees.BinaryTree.inorder;
+import static DSA.third_trimester.binaryTrees.BinaryTree.inorder;
 
 public class CreateMirrorImageOfBinaryTree
 {

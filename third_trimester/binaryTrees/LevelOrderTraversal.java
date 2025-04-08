@@ -1,4 +1,4 @@
-package DSA.third_trimester.trees;
+package DSA.third_trimester.binaryTrees;
 
 import java.util.ArrayList;
 import java.util.Queue;

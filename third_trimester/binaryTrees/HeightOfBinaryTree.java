@@ -1,4 +1,4 @@
-package DSA.trimester3.trees;
+package DSA.third_trimester.binaryTrees;
 
 public class HeightOfBinaryTree
 {

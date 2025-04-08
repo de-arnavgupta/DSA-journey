@@ -1,4 +1,4 @@
-package DSA.third_trimester.trees.binarySearchTree;
+package DSA.third_trimester.binaryTrees.binarySearchTree;
 
 public class InsertingIntoBinarySearchTree
 {
